@@ -1,0 +1,45 @@
+# Machine Learning Models
+models/*.h5
+models/*.pkl
+models/*.json
+catdogmodel.h5
+
+# Dataset
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+gradcamtestcat.jpg
+gradcamtestdog.jpg
+
+# TensorBoard Logs
+logs/
+events.out.tfevents.*
+
+# Virtual Environment
+cnn-env/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
