@@ -16,10 +16,11 @@ Deep learning project implementing a Convolutional Neural Network for binary cla
 
 ## Quick Start
 ```bash
-git clone https://github.com/YOUR_USERNAME/cnn-cat-dog-classifier.git
+git clone https://github.com/rbenzenhoefer/cnn-cat-dog-classifier-with-gradCAM.git
 cd cnn-cat-dog-classifier
 pip install -r requirements.txt
 python main.py
+```
 
 ## Data
 The model was trained on 143 manually curated images (80 cats, 63 dogs) 
@@ -32,15 +33,15 @@ The trained model achieves 90.6% test accuracy. To reproduce results,
 run `python main.py` with your own dataset.
 
 ## Files
-main.py - Model training and evaluation
-gradcam_functional.py - Grad-CAM visualization
-fix_filenames.py - Data preprocessing utilities
-Technical Documentation (2).pdf - Complete technical documentation
+- `main.py` - Model training and evaluation
+- `gradcam_functional.py` - Grad-CAM visualization
+- `fix_filenames.py` - Data preprocessing utilities
+- `Technical Documentation (2).pdf` - Complete technical documentation
 
 ## Key Learnings
-Domain gap challenges in real-world deployment
-Importance of data quality over model complexity
-Model interpretability through gradient-based methods
+- Domain gap challenges in real-world deployment
+- Importance of data quality over model complexity
+- Model interpretability through gradient-based methods
 
 ## Author
 Raphael Benzenhöfer
